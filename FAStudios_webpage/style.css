@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: #292929;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-family: Bebas;
+}
+
+#home{
+    padding-right: 5%;
+    float: right;
+    text-align: ;
+}
+
+nav a:hover{
+    background-color: #490022;
+}
+#maliketh{
+    background-image:
+        /* top, transparent black */
+            linear-gradient(
+                    rgba(0, 0, 0, 0),
+                    /*Bottom Gradient*/
+                    rgba(0, 0, 0, 0.7)
+            ),
+                /* bottom, image */
+            url("images/elden-ring-maliketh-4k-wallpaper-uhdpaper.com-259@1@g.jpg");
+
+    height: 100vh;
+    /*Fits the image to its proper size WITHOUT TILLING IT!!*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*Centers the image!!*/
+    background-position: center center;
+    position: relative;
+}
+
+.container h1{
+    background: ;
+    width: 100%;
+    padding: 35% 10px;
+    font-family: Bebas;
+    font-size: 5vw;
+    color: white;
+}
